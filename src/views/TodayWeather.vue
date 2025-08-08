@@ -69,12 +69,10 @@ async function getWeather() {
 /* خلفية متحركة */
 .weather-container {
   min-height: 100vh;
-  background-image: url("../assets/2.jpg");
+  background-image: url("../assets/1.jpg");
   background-size: cover;
-  animation: gradientBG 60s ease infinite;
-  justify-content: center;
-  padding: 12px;
-  color: #fff;
+  padding: 2rem;
+  overflow-x: hidden;
 }
 
 /* عنوان أنيق */
