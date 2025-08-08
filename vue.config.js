@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: "/WEATHER-APP/",
+  publicPath: "./",
   transpileDependencies: true,
 };
