@@ -1,5 +1,8 @@
 {
   "name": "weather-app",
+  "homepage": "https://may-ammar.github.io/weather",
+
+  "deploy": "vue-cli-service build && gh-pages -d dist",
   "version": "0.1.0",
   "private": true,
   "scripts": {
